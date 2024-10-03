@@ -1,0 +1,14 @@
+{
+  "name": "com.misaki.dependency-injection",
+  "version": "1.0.0",
+  "displayName": "Dependency Injection",
+  "description": "Dependency Injection in unity",
+  "keywords": [
+    "Dependency Injection"
+  ],
+  "author": {
+    "name": "Misaki",
+    "email": "misaki_39@outlook.com",
+    "url": "https://github.com/misakieku"
+  }
+}
