@@ -2,7 +2,7 @@
 using System.Collections.Concurrent;
 using System.Linq;
 
-namespace Misaki.UIToolkit
+namespace Misaki.DependencyInjection
 {
     public class ServiceProvider : IServiceProvider
     {

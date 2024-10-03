@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Misaki.UIToolkit
+namespace Misaki.DependencyInjection
 {
     public interface IServiceCollection : IList<ServiceDescriptor>
     {

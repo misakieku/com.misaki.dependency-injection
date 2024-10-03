@@ -1,6 +1,6 @@
 using System;
 
-namespace Misaki.UIToolkit
+namespace Misaki.DependencyInjection
 {
     public class ServiceDescriptor
     {

@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace Misaki.UIToolkit
+namespace Misaki.DependencyInjection
 {
     public interface IHost : IDisposable
     {

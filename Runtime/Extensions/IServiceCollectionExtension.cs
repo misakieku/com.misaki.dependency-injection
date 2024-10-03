@@ -1,4 +1,4 @@
-﻿namespace Misaki.UIToolkit
+﻿namespace Misaki.DependencyInjection
 {
     public static class IServiceCollectionExtension
     {
