@@ -7,6 +7,7 @@ namespace Misaki.DependencyInjection
     public class ServiceProvider : IServiceProvider
     {
         private readonly ConcurrentDictionary<Type, ServiceDescriptor> _services = new();
+        private readonly IServiceCollection _collection;
 
         public ServiceProvider(IServiceCollection collection)
         {
@@ -19,6 +20,8 @@ namespace Misaki.DependencyInjection
 
                 _services.TryAdd(item.ServiceType, item);
             }
+
+            _collection = collection;
         }
 
         public object GetService(Type serviceType)

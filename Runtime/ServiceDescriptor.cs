@@ -15,5 +15,13 @@ namespace Misaki.DependencyInjection
             ImplementationType = implementationType;
             Lifetime = lifetime;
         }
+
+        public ServiceDescriptor(Type serviceType, Type implementationType, ServiceLifetime lifetime, object instance)
+        {
+            ServiceType = serviceType;
+            ImplementationType = implementationType;
+            Lifetime = lifetime;
+            Implementation = instance;
+        }
     }
 }
